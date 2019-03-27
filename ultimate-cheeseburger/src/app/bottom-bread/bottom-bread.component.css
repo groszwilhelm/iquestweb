@@ -1,0 +1,10 @@
+.bottom-bread {
+  margin: 0 auto;
+  width: 350px;
+  height: 50px;
+  background: #d8c4aa;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

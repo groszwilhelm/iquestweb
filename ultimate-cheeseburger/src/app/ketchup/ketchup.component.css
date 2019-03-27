@@ -1,0 +1,8 @@
+.ketchup {
+  margin: 0 auto;
+  width: 325px;
+  height: 2px;
+  background: #b60202;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}

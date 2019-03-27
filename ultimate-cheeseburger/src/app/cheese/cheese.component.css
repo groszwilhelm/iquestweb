@@ -1,0 +1,8 @@
+.cheese {
+  margin: 0 auto;
+  width: 320px;
+  height: 5px;
+  background: #d6d3b4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
