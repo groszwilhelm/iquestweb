@@ -9,6 +9,7 @@ import { CheeseComponent } from './cheese/cheese.component';
 import { CheddarComponent } from './cheddar/cheddar.component';
 import { LettuceComponent } from './lettuce/lettuce.component';
 import { KetchupComponent } from './ketchup/ketchup.component';
+import { BurgerComponent } from './burger/burger.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { KetchupComponent } from './ketchup/ketchup.component';
     CheeseComponent,
     CheddarComponent,
     LettuceComponent,
-    KetchupComponent
+    KetchupComponent,
+    BurgerComponent
   ],
   imports: [
     BrowserModule
