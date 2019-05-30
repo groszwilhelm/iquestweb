@@ -1,3 +1,23 @@
 <!--The content below is only a placeholder and can be replaced.-->
-
-<app-burger></app-burger>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <app-top-bread></app-top-bread>
+      <template #burgercontainer> </template>
+      <app-bottom-bread></app-bottom-bread>
+    </div>
+    <div class="col-md-4">
+      <h1>Add your perfect ingredients</h1>
+      <!-- <select>
+        <option value="0">Select meat type</option>
+        <option value="1">Chicked</option>
+        <option value="2">Beef</option>
+        <option value="3">Pork</option>
+      </select> -->
+      <button (click)="createMeatComponent()">Meat</button>
+      <button (click)="createCheeseComponent()">Cheese</button>
+      <button (click)="createLettuceComponent()">Lettuce</button>
+      <button (click)="createSauceComponent()">Sauce</button>
+    </div>
+  </div>
+</div>
